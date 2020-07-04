@@ -1,7 +1,5 @@
 #include <Servo.h>
 Servo myservo;
-int DegreeOfServo = 0;
-bool  Degree = true;
 
 void setup() {
   Serial.begin(9600);
